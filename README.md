@@ -1,24 +1,39 @@
-# MovieGraphPy-A-Python-Application-with-the-Neo4j-Movies-Dataset
-# Neo4j Movie Graph Application
+# Neo4j Movie Graph Project
 
-This project is a console-based movie information system developed using *Neo4j Graph Database* and *Python*.  
-The application allows users to search movies, display movie details, export graph data as JSON, and dynamically add new movies into the database.
+This is a console-based movie search application developed using Python and Neo4j.
 
-## 🚀 Features
+The program allows users to:
+- Search movies by title  
+- Show movie details (year, tagline, actors, directors)  
+- Export selected movie as graph.json  
+- Add new movies dynamically if not found  
+- Run basic unit tests  
 
-- Search movies by title
-- Select a movie from search results
-- Display detailed movie information (year, tagline, actors, directors)
-- Export selected movie graph as graph.json
-- Dynamic insertion of movies, actors, and directors if a searched movie does not exist
-- Unit testing with Python unittest
+## Technologies
 
-## 🛠 Technologies Used
+- Python  
+- Neo4j  
+- Cypher  
+- JSON  
 
-- Python 3
-- Neo4j Graph Database
-- Neo4j Python Driver
-- NetworkX & Matplotlib (optional graph visualization)
-- JSON
+## How to Run
 
-## 📂 Project Structure
+1) Start Neo4j database  
+2) Run the application:
+
+python movie_app1.py
+
+3) Run unit tests:
+
+python -m unittest test_movie_app.py
+
+## Menu Structure
+
+1) Film Ara  
+2) Film Detayı Göster  
+3) Seçili Film için graph.json Oluştur  
+4) Çıkış  
+
+## Author
+
+Fatma Zehra Karavar
